@@ -6,7 +6,7 @@ using Moq;
 
 namespace SimpleAPI.Test;
 
-public class UnitTest1
+public partial class UnitTest1
 {
 	private WeatherForecastController _controller;
 
