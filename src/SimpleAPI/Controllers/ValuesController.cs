@@ -20,12 +20,12 @@ public class ValuesController : ControllerBase
 	[HttpPost]
 	public ActionResult<IEnumerable<string>> Post([FromBody] string value)
 	{
-		List<string> values = new List<string>()
-		{
-			"value 1",
-			"value 2",
-			value
-		};
+		List<string> values = new List<string>();
+		//{
+		//	"value 1",
+		//	"value 2",
+		//	value
+		//};
 
 		return values;
 	}
