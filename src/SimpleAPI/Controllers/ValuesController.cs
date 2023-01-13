@@ -8,7 +8,7 @@ public class ValuesController : ControllerBase
 	[HttpGet]
 	public ActionResult<IEnumerable<string>> Get()
 	{
-		return new List<string> { "value 1", "value 2" };
+		return new List<string> { "test", "deploy", "azure" };
 	}
 
 	[HttpGet("{id}")]
